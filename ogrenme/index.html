@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <header>
+            This is header
+        </header>
+    </div>
+
+    <h1>Hello everyone</h1> 
+    <h2>Hello everyone</h2> 
+    <h3>Hello everyone</h3> 
+    <h4>Hello everyone</h4> 
+    <h5>Hello everyone</h5> 
+    <h6>Hello everyone</h6> 
+
+    <hr width="70%"> <!--yatay çizgi eklememizi sağlar. ve aynı zamanda genişlik de ekleyebiliriz-->
+    <!--% olarak belirlememizin nedeni sayfanın şekillenmesine bağlı olarak resimlerimizi de ona göre ayarlamış oluruz.-->
+    <p>bu bir paragraftır.</b>bu bir paragraftır.</b>bu bir paragraftır.bu bir paragraftır.
+        <strong>bu kalın yazdırır</strong>
+        bu bir paragraftır.bu bir paragraftır.</br> bu bir paragraftır.bu bir paragraftır.bu bir paragraftır.
+    </p>
+
+    <img src="Avatar-3-4-5.jpg" height="200" width="200" alt="hatalı resim sayfada gösterilemiyor.">
+    <button>Please enter</button>
+
+    <big>bu büyük yazdırır</big></br>
+    <small>bu da küçük</small>
+
+    <a href="https://www.edureka.co">Bu bir sayfa linkidir</a>
+    <a href="https://www.edureka.co"><img src="Avatar-3-4-5.jpg" height="200" width="200" alt="hatalı resim sayfada gösterilemiyor."></a>
+    <!--resmin üzerine tıklandığında web sayfasına götürür-->
+
+    <ol> <!--sınırlı bir liste oluşturmamızı sağlar-->
+        <li>bu bir random list</li>
+        <li>bu bir random list</li>
+        <li>bu bir random list</li>
+        <li>bu bir random list</li>
+        <li>bu bir random list</li>
+        <li>bu bir random list</li>
+    </ol>
+
+    <ul>
+        <li>bu bir sınırsız liste <img src="Avatar-3-4-5.jpg" height="50" width="50"></li>
+        <li>bu bir sınırsız liste</li>
+        <li>bu bir sınırsız liste</li>
+        <li>bu bir sınırsız liste</li>
+    </ul>
+
+    <div>
+        <footer>
+            this is footer
+        </footer>
+    </div>
+
+    <h1>Form Örneği</h1>
+    <div id="form-orn">
+        <form action="" method="">
+            <label for="ad">Adınız:</label>
+            <input type="text" name="ad" placeholder="busra" required> <!--required demek bu alanın doldurulması zorunlu demek-->
+
+            <label for="soyad">Soyadınız:</label>
+            <input type="text" name="soyad" placeholder="oral" required>
+        </form>
+    </div>
+
+    <div>
+        <label for="gender-male">Kadın</label>
+        <input type="radio" name="gender-choice" value="birincisec">
+
+        <label for="gender-female">Erkek</label>
+        <input type="radio" name="gender-choice" value="ikincisec">
+
+        <label for="gender-other">Başka</label>
+        <input type="radio" name="gender-choice" value="ucuncusec">
+    </div>
+
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="xyz@gmail.com">
+
+        <label for="Password">Password</label>
+        <input type="password" name="password">
+    </div>
+
+    <div>
+        <label for="month">Aylar</label>
+        <select name="month">
+            <option value="0" selected disabled>Month</option> <!--ilk değeri ayarladık başta sabitledik-->
+            <option value="jan">January</option>
+            <option value="jan">January</option>
+            <option value="jan">January</option>
+            <option value="jan">January</option>
+            <option value="jan">January</option>
+            <option value="jan">January</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="katil">Formda yazılanları okdudum onaylıyorum:</label>
+        <input type="checkbox" name="katil">
+
+        <button type="gonder">gönder</button>
+    </div>
+
+    <!--tablo şeklini verdik css kullanarak-->
+    <style type="text/css">
+        table{
+            border: 1px solid black;
+        }
+
+        td{
+            border: 1px solid black;
+        }
+    </style>
+
+    <table>
+        <thead> <!--tabloya başlık eklemesi yaptık-->
+            <th>köpek</th>
+            <th>kedi</th>
+            <th>sincap</th>
+        </thead>
+        <tr><!--tablo bilgileri hakkındaki açıklama satırları-->
+            <td>hayvandır</td>
+            <td>hayvandır</td>
+            <td>hayvandır</td>
+        </tr>
+
+        <tr>
+            <td>hayvandır</td>
+            <td>hayvandır</td>
+            <td>hayvandır</td>
+        </tr>
+
+        <tr>
+            <td>hayvandır</td>
+            <td>hayvandır</td>
+            <td>hayvandır</td>
+        </tr>
+    </table>
+
+    <!--ortada yazı yazmamızı sağlar-->
+    <center>
+        <h1>Welcome my page</h1>
+    </center>
+</body>
+</html>
